@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web AI Agent - Website Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header" style="background: transparent; box-shadow: none;">
+        <nav class="nav" style="justify-content: center;">
+            <div class="nav-brand">
+                <h2>Web AI Agent</h2>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="min-height: 60vh; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+            <h1 class="hero-title" style="font-size: 3rem; margin-bottom: 1rem;">Create Your Website with AI</h1>
+            <p class="hero-description" style="font-size: 1.2rem; color: #94a3b8; margin-bottom: 2rem;">
+                Describe your dream website and let AI build it for you in seconds.
+            </p>
+            <form id="website-form" style="width: 100%; max-width: 600px; display: flex; gap: 1rem;">
+                <input type="text" id="website-desc" placeholder="e.g. Modern portfolio for a designer" required style="flex: 1; padding: 14px; border-radius: 8px; border: 1px solid #334155;">
+                <button type="button" id="voiceToTextBtn" class="btn btn-secondary" style="padding: 14px 20px;">🎤 Voice</button>
+                <button type="submit" class="btn btn-primary" style="padding: 14px 32px;">Generate Website</button>
+            </form>
+            <div id="website-result" style="margin-top:2rem; width:100%; max-width:900px;"></div>
+        </section>
+    </main>
+
+    <footer class="footer" style="margin-top: 60px; text-align: center; color: #94a3b8;">
+        <p>&copy; 2024 Web AI Agent. All rights reserved.</p>
+        <div style="margin-top: 1rem;">
+            <span>Contact: <a href="mailto:sumeetkhatri1771@gmail.com" style="color:#6366f1;">sumeetkhatri1771@gmail.com</a></span>
+            <br>
+            <a href="https://www.linkedin.com/in/khatri-sumeet/" target="_blank" style="color:#6366f1; margin-right: 10px;">LinkedIn</a>
+            <a href="https://github.com/S1u2m3e4e5t6?tab=repositories" target="_blank" style="color:#6366f1;">GitHub</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
